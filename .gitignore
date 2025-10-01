@@ -1,0 +1,26 @@
+﻿# Node
+node_modules/
+*.log
+dist/
+build/
+.tmp/
+
+# Expo
+.expo/
+.expo-shared/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env
+.env
+.env.*.local
+server/.env
+web/.env
+mobile/.env
+mobile/.expo/
+
+# macOS/Windows
+.DS_Store
+Thumbs.db
+server/data/

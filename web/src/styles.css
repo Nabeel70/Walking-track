@@ -1,0 +1,115 @@
+﻿:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1b1b1b;
+  background-color: #f7f7f7;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f1f3f9;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+  margin-bottom: 24px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.card p {
+  margin: 4px 0;
+  color: #475569;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+select,
+button,
+input {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5f5;
+  background: #fff;
+  font-size: 0.95rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.status-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  color: #64748b;
+}
+
+.status-row span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
